@@ -1,0 +1,1199 @@
+@font-face {
+  font-family: Allison;
+  src: url("../../public/fonts/Allison-Regular.ttf");
+}
+@font-face {
+  font-family: Manrope;
+  src: url("../../public/fonts/Manrope-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Archia;
+  src: url("../../public/fonts/Archia-Regular.otf");
+}
+
+/* Announcement */
+.announcement-main {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 12px 0px;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.text-title1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.announcement-responsive-title {
+  display: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.announcement-flag-img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  margin-left: 160px;
+}
+
+.announcement-google-play-img {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  margin-right: 160px;
+}
+
+.announcement-close {
+  position: absolute;
+  right: 0px;
+}
+
+/* Header */
+.header-main {
+  background-color: #fbfafa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 160px 32px;
+}
+
+.header-logo-img {
+  padding-right: 64px;
+  max-width: fit-content;
+}
+
+.header-logo-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d2939;
+}
+
+.header-mobile-icon {
+  color: #119c3c;
+  width: 16px;
+}
+
+.header-btn-sell {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background: #ffffff;
+  border: 1px solid #e4e7ec;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 6px;
+  width: 125px;
+  height: 40px;
+  padding: 8px 12px;
+}
+
+.header-btn-myaccount {
+  padding: 8px 12px;
+  width: 114px;
+  height: 40px;
+  background: #119c3c;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 6px;
+  color: white;
+}
+
+/* SearchLiveStock */
+.searchlivestock-main {
+  background-color: #fbfafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 160px;
+  gap: 10px;
+  align-self: stretch;
+  width: 100%;
+  height: 31vw;
+}
+
+.searchlivestock-content {
+  background-image: url("../../public/images/bg1.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px 160px;
+  border-width: 0px 1px;
+  border-style: solid;
+  border-color: #e5ded7;
+  width: 100%;
+  height: 100%;
+}
+
+.searchlivestock-owners {
+  background: #fcfcfd;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 16px;
+  gap: 8px;
+  width: 330px;
+  height: 32px;
+  background: #fcfcfd;
+  border-radius: 40px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 1vw;
+}
+
+.searchlivestock-title {
+  font-family: "Archia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #101828;
+  margin-bottom: 2.5vw;
+}
+
+.searchlivestock-btn-browse {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 12px;
+  width: 240px;
+  height: 56px;
+  background: #119c3c;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  color: white;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* Feature */
+.feature-main {
+  background-color: #fbfafa;
+  padding: 60px 160px;
+}
+
+.feadture-title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #119c3c;
+}
+
+.feadture-list-title {
+  font-family: "Archia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.feadture-list-showall {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #119c3c;
+}
+
+/* Step */
+.step-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 160px 120px;
+  gap: 32px;
+  background-color: #fbfafa;
+}
+
+.step-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  margin-bottom: 80px;
+}
+
+.step-title1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #119c3c;
+}
+
+.step-title2 {
+  font-family: "Archia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #101828;
+}
+
+.step-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  gap: 4px;
+  width: 360px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 24px;
+}
+
+.step-option-sell {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  width: 175px;
+  height: 40px;
+  background: #119c3c;
+  border-radius: 20px;
+}
+
+.step-option-sell-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.step-option-buy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  width: 173px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.step-option-buy-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+.step-contain-main {
+  margin-left: 72px;
+}
+
+.step-contain-bar-icon {
+  width: 28px;
+  height: 28px;
+  background: #119c3c;
+  border: 6px solid #c8e4d1;
+  border-radius: 50%;
+}
+
+.step-contain-bar-main {
+  margin-right: 56px;
+}
+
+.step-contain-bar {
+  background: #119c3c;
+}
+
+.step-contain-text1 {
+  position: absolute;
+  top: -25px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #119c3c;
+}
+
+.step-contain-text2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  color: #101828;
+}
+
+.step-contain-text3 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #344054;
+}
+
+.step-contain-image {
+  margin-top: -80px;
+}
+
+.step-contain-text-main {
+  padding-bottom: 100px;
+}
+
+/* Category */
+.category-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 160px 120px;
+  background: #fbfafa;
+}
+
+.category-text-title1,
+.category-text-title2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #119c3c;
+}
+
+.category-text-title2 {
+  display: none;
+}
+
+.category-text-content {
+  font-family: "Archia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.category-search-main {
+  height: 48px;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.category-search-input-main {
+  border: 1px solid #e4e7ec;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.category-search-input {
+  color: #e4e7ec;
+  background: #ffffff;
+}
+
+.category-search-select-main {
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #e4e7ec;
+  width: 280px;
+  height: 48px;
+}
+
+.category-select-item {
+  color: #101828;
+}
+
+.category-select-btn {
+  width: 105px;
+  height: 48px;
+  padding: 8px 12px;
+  background: #119c3c;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 0px 8px 8px 0px;
+  color: white;
+}
+
+.alice-carousel__prev-btn {
+  position: absolute;
+  top: 75px;
+  left: -25px;
+  display: block;
+}
+
+.alice-carousel__next-btn {
+  position: absolute;
+  top: 75px;
+  right: -25px;
+  display: flex !important;
+  justify-content: flex-end;
+}
+
+.category-item {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.howto-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 160px;
+  isolation: isolate;
+  background-image: url("../../public/images/howTo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.howto-title-main {
+  padding-top: 33px;
+}
+
+.howto-title-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #119c3c;
+}
+
+.howto-content-text {
+  font-family: "Archia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #101828;
+}
+
+.howto-step-main1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.howto-step-item-main {
+  width: 256px;
+  height: 140px;
+}
+
+.howto-step-item-title1 {
+  font-family: "Archia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #119c3c;
+}
+
+.howto-step-item-title2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #101828;
+}
+
+.howto-step-item-title3 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #344054;
+}
+
+.howto-btn-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.howto-btn-create {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 12px;
+  width: 280px;
+  height: 56px;
+  background: #119c3c;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  color: white;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.howto-step-main2 {
+  display: none;
+}
+
+/* Letter */
+.letter-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 160px;
+  background-color: #fbfafa;
+}
+
+.letter-text1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #119c3c;
+}
+
+.letter-text2 {
+  font-family: "Archia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  color: #101828;
+}
+
+.letter-text3 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #344054;
+}
+
+.letter-text4 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #344054;
+}
+
+.letter-text5 {
+  font-family: "Allison";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #101828;
+}
+
+.letter-logo {
+  margin-top: 62px;
+}
+
+/* Freeapp */
+.freeapp-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  isolation: isolate;
+  background-color: #fbfafa;
+  padding: 0px 160px 120px;
+  border-radius: 8px;
+}
+
+.freeapp-main-content {
+  padding: 70px 0px 0px;
+  background-image: url("../../public/images/freeappbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.freeapp-text1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1d2939;
+}
+
+.freeapp-text2 {
+  font-family: "Archia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  color: #101828;
+  margin-bottom: 40px;
+}
+
+.freeapp-main-left-content {
+  padding-left: 64px;
+}
+
+.freeapp-main-left-text1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #344054;
+  padding-left: 55px;
+  padding-right: 8px;
+}
+
+.freeapp-main-left-text2 {
+  margin-bottom: 30px;
+}
+
+.freeapp-main-left-btn {
+  margin-bottom: 56px;
+}
+
+.freeapp-main-left-avatar1 {
+  z-index: 100;
+}
+
+.freeapp-main-left-avatar2 {
+  z-index: 99;
+  position: absolute;
+  left: 25px;
+}
+
+.freeapp-main-left-avatar3 {
+  z-index: 98;
+  position: absolute;
+  left: 50px;
+}
+
+/* Prefooter */
+.prefooter-main {
+  padding: 96px 160px;
+  background: #f8f6f4;
+}
+
+.prefooter-text1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #119c3c;
+  margin-bottom: 4px;
+}
+
+.prefooter-text2 {
+  font-family: "Archia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  color: #101828;
+  margin-bottom: 56px;
+}
+
+.prefooter-item-logo-main {
+  height: 20px;
+  border-left: 2px solid #119c3c;
+}
+
+.prefooter-item-text1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+
+.prefooter-item-text2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344054;
+}
+
+/* Footer */
+.footer-main {
+  padding: 64px 160px 48px;
+  background: #fbfafa;
+  border-top: 1px solid #ede8e4;
+}
+
+.footer-text1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #119c3c;
+}
+
+.footer-text2 {
+  font-family: "Archia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: #101828;
+}
+
+.footer-icon-facebook {
+  margin-right: 20px;
+  color: #fbfafa;
+  background-color: #b9aea5;
+  border-radius: 50%;
+  fill: #fbfafa;
+}
+
+.footer-icon-twitter {
+  margin-right: 20px;
+  color: #b9aea5;
+  fill: #b9aea5;
+}
+
+.footer-icon-instagram {
+  margin-right: 20px;
+  color: #b9aea5;
+}
+
+.footer-icon-linkedin {
+  color: #fbfafa;
+  fill: #b9aea5;
+}
+
+.footer-last-text {
+  margin-top: 33px;
+}
+
+.footer-text3 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+}
+
+@media screen and (max-width: 1200px) {
+  .freeapp-main-content {
+    flex-flow: column;
+    flex-direction: column-reverse;
+  }
+  .freeapp-text1 {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .announcement-flag-img {
+    margin-left: 100px;
+  }
+  .announcement-google-play-img {
+    margin-right: 100px;
+  }
+  .header-main,
+  .searchlivestock-main,
+  .feature-main,
+  .step-main,
+  .category-main,
+  .letter-main,
+  .freeapp-main,
+  .prefooter-main,
+  .footer-main {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .howto-main {
+    padding: 70px 100px;
+  }
+  .header-logo-img {
+    padding-right: 30px;
+  }
+  .searchlivestock-content {
+    padding-top: 75px;
+  }
+  .step-contain-main {
+    margin-left: 55px;
+  }
+  .step-contain-bar-main {
+    margin-right: 40px;
+  }
+  .howto-step-main1 {
+    display: none;
+  }
+  .howto-step-main2 {
+    display: block;
+  }
+  .howto-step-main2-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 4px;
+    height: 76px;
+    background: #ede8e4;
+    border-radius: 6px;
+  }
+  .howto-step-main2-item-content1 {
+    display: flex;
+    justify-content: left;
+  }
+  .howto-step-main2-item-text1 {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #119c3c;
+  }
+  .howto-step-main2-item-text2 {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #101828;
+  }
+  .howto-step-main2-item-text3 {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+  }
+  .howto-title-main {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .announcement-flag-img {
+    margin-left: 50px;
+  }
+  .announcement-google-play-img {
+    margin-right: 50px;
+  }
+  .header-main,
+  .searchlivestock-main,
+  .feature-main,
+  .step-main,
+  .category-main,
+  .howto-main,
+  .freeapp-main,
+  .footer-main {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .searchlivestock-content {
+    padding-top: 50px;
+  }
+  .searchlivestock-title {
+    font-size: 50px;
+  }
+  .searchlivestock-btn-browse {
+    width: 240px;
+  }
+  .letter-main,
+  .prefooter-main {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .header-logo-text {
+    display: none;
+  }
+  .header-mobile-icon {
+    display: none;
+  }
+  .searchlivestock-content {
+    padding-top: 40px;
+  }
+  .searchlivestock-title {
+    font-size: 40px;
+    margin-bottom: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .announcement-main {
+    justify-content: left;
+  }
+  .text-title1,
+  .announcement-flag-img {
+    display: none;
+  }
+  .announcement-responsive-title {
+    display: block;
+  }
+  .announcement-google-play-img {
+    margin-right: 8px;
+    margin-left: 16px;
+  }
+  .header-main,
+  .feature-main,
+  .step-main,
+  .category-main,
+  .howto-main,
+  .letter-main,
+  .freeapp-main,
+  .prefooter-main,
+  .footer-main {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .step-contain-main {
+    margin-left: 25px;
+  }
+  .searchlivestock-owners {
+    margin-bottom: 0px;
+  }
+  .searchlivestock-content {
+    padding-top: 30px;
+  }
+  .searchlivestock-title {
+    font-size: 34px;
+    margin-bottom: 1vw;
+  }
+  .step-contain-bar-main {
+    display: none;
+  }
+  .step-contain-text-main,
+  .step-contain-last-text-main {
+    display: flex;
+    flex-flow: column;
+    flex-direction: column-reverse;
+  }
+  .step-contain-image {
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .searchlivestock-main {
+    padding: 0px;
+    height: 40vw;
+  }
+  .searchlivestock-content {
+    padding-top: 40px;
+  }
+  .searchlivestock-title {
+    line-height: 35px;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+  }
+  .freeapp-main-left-content {
+    padding-left: 20px;
+  }
+  .footer-content1 {
+    display: block;
+  }
+  .footer-icon-main {
+    justify-content: start;
+    margin-top: 32px;
+  }
+  .footer-last-text {
+    display: block;
+  }
+  .footer-text-policy {
+    justify-content: start;
+  }
+  .footer-copyright {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .searchlivestock-main {
+    height: 50vw;
+  }
+  .step-option {
+    width: 325px;
+    height: 44px;
+  }
+  .step-title1,
+  .step-option-sell-text,
+  .step-option-buy-text {
+    font-size: 14px;
+  }
+  .step-title2 {
+    font-size: 24px;
+  }
+  .category-item-image {
+    width: 135px;
+    height: 128px;
+  }
+  .alice-carousel__prev-btn,
+  .alice-carousel__next-btn {
+    top: 35px;
+  }
+  .category-item {
+    font-size: 14px;
+  }
+  .category-text-title1,
+  .category-search-select-main,
+  .category-select-btn {
+    display: none;
+  }
+  .category-text-title2 {
+    display: block;
+  }
+  .category-text-content {
+    font-size: 24px;
+  }
+  .freeapp-text1 {
+    font-size: 16px;
+  }
+  .freeapp-text2 {
+    font-size: 24px;
+  }
+  .freeapp-main-left-btn {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .freeapp-main-left-btn1 {
+    margin: auto;
+    padding: 0px;
+    margin-bottom: 12px;
+    width: 300px;
+  }
+  .freeapp-main-left-btn2 {
+    margin: auto;
+    width: 300px;
+  }
+  .freeapp-main-left-text1 {
+    font-size: 16px;
+  }
+  .freeapp-main-left-avatar1,
+  .freeapp-main-left-avatar2,
+  .freeapp-main-left-avatar3 {
+    display: none;
+  }
+  .freeapp-main {
+    padding-bottom: 0px;
+  }
+  .freeapp-main-left-text1 {
+    padding-left: 8px;
+  }
+  .freeapp-main-left-text2 {
+    justify-content: center;
+  }
+  .howto-step-main2-item {
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header-logo-img {
+    padding-right: 5px;
+    width: 90px;
+  }
+  .header-btn-sell {
+    margin-right: 5px;
+  }
+  .searchlivestock-main {
+    height: 60vw;
+  }
+  .searchlivestock-owners {
+    width: 300px;
+    height: 28px;
+    font-size: 14px;
+  }
+  .searchlivestock-title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  .searchlivestock-main {
+    height: 75vw;
+  }
+  .searchlivestock-owners {
+    margin-bottom: 16px;
+  }
+  .searchlivestock-title {
+    line-height: 44px;
+  }
+}
